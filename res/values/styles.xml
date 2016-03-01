@@ -1,0 +1,58 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme_Blue" parent="AppBaseTheme">
+        <item name="normalTextColor">#D2D2D2</item>
+        <item name="primaryColor">@color/theme_blue</item>
+        <item name="primaryColorBackground">@drawable/round_bg_blue</item>
+        <item name="primaryReverseColor">#FEFEFE</item>
+        <item name="primaryReverseBackground">@drawable/round_bg_normal_selector</item>
+        <item name="iconSetting">@drawable/setting</item>
+    </style>
+
+    <style name="Theme_Green" parent="AppBaseTheme">
+        <item name="normalTextColor">#505050</item>
+        <item name="primaryColor">@color/theme_green</item>
+        <item name="primaryColorBackground">@drawable/round_bg_green_selector</item>
+        <item name="primaryReverseColor">#FFED01</item>
+        <item name="primaryReverseBackground">@drawable/round_bg_normal_selector</item>
+        <item name="iconSetting">@drawable/setting_green</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 显示动画 -->
+        <!-- <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

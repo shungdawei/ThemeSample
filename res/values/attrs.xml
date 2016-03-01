@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="normalTextColor" format="color|reference" />
+    <attr name="primaryColor" format="color|reference" />
+    <attr name="primaryColorBackground" format="color|reference" />
+    <attr name="primaryReverseColor" format="color|reference" />
+    <attr name="primaryReverseBackground" format="color|reference" />
+    <attr name="iconSetting" format="reference" />
+
+</resources>

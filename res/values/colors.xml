@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#55000000</color>
+    <color name="theme_green">#5FBA30</color>
+    <color name="theme_blue">#0997F9</color>
+    <color name="normal_selector">#FEFEFE</color>
+    <color name="normal_selector_deep">#EFEFEF</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
